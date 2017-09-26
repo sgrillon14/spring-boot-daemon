@@ -27,6 +27,13 @@
 				<exclude>*/**</exclude>
 			</excludes>
 		</fileSet>
+		<fileSet>
+			<directory>${dist.dir}/config</directory>
+			<outputDirectory>config</outputDirectory>
+			<includes>
+				<include>*.properties</include>
+			</includes>
+		</fileSet>
 	</fileSets>
 
 	<files>
